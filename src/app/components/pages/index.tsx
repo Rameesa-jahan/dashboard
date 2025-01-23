@@ -11,7 +11,7 @@ const { Header, Sider, Content } = Layout;
 
 const Dashboard = () => {
     const [collapsed, setCollapsed] = useState(false);
-    const [selectedKey, setSelectedKey] = useState('1'); // Track active menu item
+    const [selectedKey, setSelectedKey] = useState('1');
 
     const renderContent = () => {
         switch (selectedKey) {

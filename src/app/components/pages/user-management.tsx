@@ -27,7 +27,7 @@ const UserManagement = () => {
             .then((data) => {
                 setUsers(data);
                 setFilteredUsers(data);
-                setLoading(false); // Set loading to false after fetching data
+                setLoading(false); 
             });
     }, []);
 
@@ -59,7 +59,7 @@ const UserManagement = () => {
         <Space direction='vertical' style={{ width: '100%' }}>
             <Row justify="space-between" align="middle" style={{ marginBottom: '16px' }}>
                 <Col>
-                    <Title level={4}>User Management</Title>
+                    <Title  style={{margin:0}} level={4}>User Management</Title>
                 </Col>
                 <Col>
                     <Button disabled={loading} type="primary" onClick={downloadPDF}>Download PDF</Button>

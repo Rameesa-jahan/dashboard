@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Input, Button, List, message, Modal } from 'antd';
+import { Input, Button, List, message, Modal, Space } from 'antd';
+import Title from 'antd/es/typography/Title';
 
 interface Task {
     id: number;
@@ -49,8 +50,8 @@ const TaskManagement = () => {
 
 
     return (
-        <div style={{ padding: '20px' }}>
-            <h2>Task Manager</h2>
+        <Space direction='vertical' style={{ width: '100%' }}>
+            <Title level={4}>Task Manager</Title>
             <div style={{ marginBottom: '20px' }}>
                 <Input
                     placeholder="Enter a task"
@@ -112,7 +113,7 @@ const TaskManagement = () => {
                     placeholder="Update task name"
                 />
             </Modal>
-        </div>
+        </Space>
     );
 };
 
