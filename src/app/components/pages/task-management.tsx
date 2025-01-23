@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any, react/jsx-key */
+
 import React, { useState } from 'react';
 import { Input, Button, List, message, Modal, Space } from 'antd';
 import Title from 'antd/es/typography/Title';

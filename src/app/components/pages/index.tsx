@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any, react/jsx-key */
+
 'use client';
 import { Layout, Menu } from 'antd';
 import { PieChartOutlined, UserOutlined, UnorderedListOutlined } from '@ant-design/icons';

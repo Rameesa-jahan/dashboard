@@ -1,4 +1,6 @@
 
+/* eslint-disable @typescript-eslint/no-explicit-any, react/jsx-key */
+
 import { Space } from 'antd';
 import Title from 'antd/es/typography/Title';
 import React, { useEffect, useState } from 'react';

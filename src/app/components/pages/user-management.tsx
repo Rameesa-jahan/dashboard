@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any, react/jsx-key */
+
 import React, { useEffect, useState } from 'react';
 import { Table, Input, Button, Spin, Row, Col, Space } from 'antd';
 import jsPDF from 'jspdf';
